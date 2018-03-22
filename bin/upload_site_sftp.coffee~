@@ -1,0 +1,11 @@
+bs      = require '../lib/bootstrap'
+fs      = require 'fs'
+
+config  = JSON.parse fs.readFileSync "/home/rocky/xsite-sftp-upload/etc/dev.json", 'utf-8'
+
+upload = ->
+  bs.setup config, (err, db) ->
+    console.log 'get the bootstrap done'
+
+upload()
+ 

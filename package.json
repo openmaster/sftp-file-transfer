@@ -1,0 +1,25 @@
+{
+  "name": "xsite-sftp-upload",
+  "version": "1.0.0",
+  "description": "This will upload files from any ftp or sftp on to s3 using RabbitMQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sftp",
+    "ftp",
+    "s3",
+    "upload"
+  ],
+  "author": "Vishavjeet Singh <vishav4@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "coffeescript": "^2.2.3"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "pg": "^7.4.1",
+    "underscore": "^1.8.3"
+  }
+}

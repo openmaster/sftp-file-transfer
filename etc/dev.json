@@ -1,0 +1,18 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "uid": "postgres",
+    "pwd": "postgres",
+    "name": "platform_vishav"
+  },
+  "api": {
+    "host": "192.168.1.140",
+    "port": 8200
+  },
+  "parsers": {
+    "directory": "/home/vishav/platform/data",
+    "port": 7200,
+    "delay": 5000
+  }
+}
