@@ -1,0 +1,3 @@
+exports.run = (msg, done) ->
+  console.log "hitting the pricebook msg handler"
+  done null, 'ok'

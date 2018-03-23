@@ -10,6 +10,7 @@ rabbitMQ = heroku.config.rabbitMq.connect
 handlers = 
   'INGESTOR': require '../msg_handlers/ingestors'
   'ERRORS': require '../msg_handlers/error'
+  'PRICEBOOK': require '../msg_handlers/pricebook'
 
 process_msgs = (msg, cb) ->
   try

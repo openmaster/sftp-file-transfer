@@ -2,6 +2,7 @@ exports.config =
   rabbitMq:
     connect: process.env.RABBITMQ_BIGWIG_URL || 'amqp://L6Pr-jcX:DE4CaVsraUHVzH1pdFGWiO7o0ns8WcU_@black-vilthuril-36.bigwig.lshift.net:10000/tGtdT4ExyWi4'
     ingestorQ: process.env.INGESTOR_Q || 'ingestor'
+    priceBookQ: process.env.PRICEBOOKQ || 'pricebook'
     errorQ: process.env.ERROR_Q || process.env.INGESTOR_Q || 'ingestor'
   aws:
     shiftBucket: process.env.SHIFT_INGESTOR_BUCKET || 'xsiteingestor'
