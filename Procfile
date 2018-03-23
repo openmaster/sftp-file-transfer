@@ -1,0 +1,1 @@
+publisher1: coffee bin/upload_site_sftp.coffee
